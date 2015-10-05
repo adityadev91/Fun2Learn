@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="animation" size="1206,1097" id="com.programwithjava.animation" metadata="uml2-1.0" initialized="true" scrolledY="-5" tag="1000" key="32303037303533312D31303030204B69647A2F5072697961">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Vehicle" location="1155,41" size="118,106" id="com.programwithjava.animation/Vehicle" runTimeClassModel="drawShape(Ljava.awt.Graphics2D;),Vehicle(FF),Vehicle()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Vehicle" id="com.programwithjava.animation/Vehicle#Vehicle(FF)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Vehicle" id="com.programwithjava.animation/Vehicle#Vehicle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawShape" id="com.programwithjava.animation/Vehicle#drawShape(Ljava.awt.Graphics2D;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainView@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="100,106" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainView@|com.programwithjava.animation/Vehicle#model" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - model" location="1262,154" size="47,16" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1241,154" size="7,16" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,0" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainView@|com.programwithjava.animation/TrainView#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.0/@sourceConnections.0" name="TrainView" location="975,405" size="149,142" id="com.programwithjava.animation/TrainView" runTimeClassModel="addStartListener(Ljava.awt.event.ActionListener;),TrainView(Lcom.programwithjava.animation.Vehicle;),fileRunning,addStopListener(Ljava.awt.event.ActionListener;),getPlayer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="fileRunning" id="com.programwithjava.animation/TrainView#fileRunning"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,72">
+      <children xsi:type="editmodel:MethodEditModel" name="TrainView" id="com.programwithjava.animation/TrainView#TrainView(Lcom.programwithjava.animation.Vehicle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addStartListener" id="com.programwithjava.animation/TrainView#addStartListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addStopListener" id="com.programwithjava.animation/TrainView#addStopListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="com.programwithjava.animation/TrainView#getPlayer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TrainController" location="696,50" size="160,88" id="com.programwithjava.animation/TrainController" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;),TrainController(Lcom.programwithjava.animation.Vehicle;Lcom.programwithjava.animation.TrainView;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TrainController" id="com.programwithjava.animation/TrainController#TrainController(Lcom.programwithjava.animation.Vehicle;Lcom.programwithjava.animation.TrainView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="com.programwithjava.animation/TrainController#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainController@" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,44" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainController@|com.programwithjava.animation/TrainController#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="model" location="0,53" id="com.programwithjava.animation/Vehicle@model+com.programwithjava.animation/TrainController@|com.programwithjava.animation/Vehicle#model" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - model" location="1101,71" size="47,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1141,101" size="7,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.programwithjava.animation/TrainView@view+com.programwithjava.animation/TrainController@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,88" id="com.programwithjava.animation/TrainView@view+com.programwithjava.animation/TrainController@|com.programwithjava.animation/TrainController#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="view" location="0,10" id="com.programwithjava.animation/TrainView@view+com.programwithjava.animation/TrainController@|com.programwithjava.animation/TrainView#view" multiplicityLabel="//@children.2/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - view" location="932,422" size="36,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="961,392" size="7,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="MainView" location="1530,555" size="172,124" id="com.programwithjava.animation/MainView" runTimeClassModel="addRhymesListener(Ljava.awt.event.ActionListener;),MainView(),addCountingListener(Ljava.awt.event.ActionListener;),addPuzzlesListener(Ljava.awt.event.ActionListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,72">
+      <children xsi:type="editmodel:MethodEditModel" name="MainView" id="com.programwithjava.animation/MainView#MainView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCountingListener" id="com.programwithjava.animation/MainView#addCountingListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPuzzlesListener" id="com.programwithjava.animation/MainView#addPuzzlesListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addRhymesListener" id="com.programwithjava.animation/MainView#addRhymesListener(Ljava.awt.event.ActionListener;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainController" location="1155,573" size="157,88" id="com.programwithjava.animation/MainController" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;),MainController(Lcom.programwithjava.animation.MainView;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MainController" id="com.programwithjava.animation/MainController#MainController(Lcom.programwithjava.animation.MainView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="com.programwithjava.animation/MainController#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.programwithjava.animation/MainView@view+com.programwithjava.animation/MainController@" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="157,44" id="com.programwithjava.animation/MainView@view+com.programwithjava.animation/MainController@|com.programwithjava.animation/MainController#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="view" location="0,62" id="com.programwithjava.animation/MainView@view+com.programwithjava.animation/MainController@|com.programwithjava.animation/MainView#view" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - view" location="1487,594" size="36,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1516,624" size="7,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="ABCView" location="315,0" size="153,628" id="com.programwithjava.animation/ABCView" runTimeClassModel="addTListener(Ljava.awt.event.ActionListener;),addWListener(Ljava.awt.event.ActionListener;),addLListener(Ljava.awt.event.ActionListener;),addUListener(Ljava.awt.event.ActionListener;),addRListener(Ljava.awt.event.ActionListener;),addGListener(Ljava.awt.event.ActionListener;),ABCView(),addAListener(Ljava.awt.event.ActionListener;),ABCView(Ljava.lang.String;),fileRunning,addDListener(Ljava.awt.event.ActionListener;),addXListener(Ljava.awt.event.ActionListener;),addOListener(Ljava.awt.event.ActionListener;),addYListener(Ljava.awt.event.ActionListener;),addMListener(Ljava.awt.event.ActionListener;),addFListener(Ljava.awt.event.ActionListener;),addNListener(Ljava.awt.event.ActionListener;),addHListener(Ljava.awt.event.ActionListener;),addSListener(Ljava.awt.event.ActionListener;),addZListener(Ljava.awt.event.ActionListener;),addBListener(Ljava.awt.event.ActionListener;),addJListener(Ljava.awt.event.ActionListener;),addEListener(Ljava.awt.event.ActionListener;),addMenuListener(Ljava.awt.event.ActionListener;),addPListener(Ljava.awt.event.ActionListener;),addCListener(Ljava.awt.event.ActionListener;),addIListener(Ljava.awt.event.ActionListener;),locked,addKListener(Ljava.awt.event.ActionListener;),lockLocation(),addVListener(Ljava.awt.event.ActionListener;),addQListener(Ljava.awt.event.ActionListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="fileRunning" id="com.programwithjava.animation/ABCView#fileRunning"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="locked" id="com.programwithjava.animation/ABCView#locked"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,540">
+      <children xsi:type="editmodel:MethodEditModel" name="ABCView" id="com.programwithjava.animation/ABCView#ABCView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ABCView" id="com.programwithjava.animation/ABCView#ABCView(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAListener" id="com.programwithjava.animation/ABCView#addAListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addBListener" id="com.programwithjava.animation/ABCView#addBListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCListener" id="com.programwithjava.animation/ABCView#addCListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addDListener" id="com.programwithjava.animation/ABCView#addDListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addEListener" id="com.programwithjava.animation/ABCView#addEListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFListener" id="com.programwithjava.animation/ABCView#addFListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addGListener" id="com.programwithjava.animation/ABCView#addGListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addHListener" id="com.programwithjava.animation/ABCView#addHListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addIListener" id="com.programwithjava.animation/ABCView#addIListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addJListener" id="com.programwithjava.animation/ABCView#addJListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addKListener" id="com.programwithjava.animation/ABCView#addKListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLListener" id="com.programwithjava.animation/ABCView#addLListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addMListener" id="com.programwithjava.animation/ABCView#addMListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addMenuListener" id="com.programwithjava.animation/ABCView#addMenuListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addNListener" id="com.programwithjava.animation/ABCView#addNListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOListener" id="com.programwithjava.animation/ABCView#addOListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPListener" id="com.programwithjava.animation/ABCView#addPListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addQListener" id="com.programwithjava.animation/ABCView#addQListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addRListener" id="com.programwithjava.animation/ABCView#addRListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addSListener" id="com.programwithjava.animation/ABCView#addSListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTListener" id="com.programwithjava.animation/ABCView#addTListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addUListener" id="com.programwithjava.animation/ABCView#addUListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addVListener" id="com.programwithjava.animation/ABCView#addVListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addWListener" id="com.programwithjava.animation/ABCView#addWListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addXListener" id="com.programwithjava.animation/ABCView#addXListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addYListener" id="com.programwithjava.animation/ABCView#addYListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addZListener" id="com.programwithjava.animation/ABCView#addNextListener(Ljava.awt.event.ActionListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lockLocation" id="com.programwithjava.animation/ABCView#lockLocation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.programwithjava.animation/ABCView-Standard::Instantiate->com.programwithjava.animation/KeyEventHandler" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,502" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,52"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="KeyEventHandler" location="630,450" size="178,106" id="com.programwithjava.animation/KeyEventHandler" runTimeClassModel="keyTyped(Ljava.awt.event.KeyEvent;),keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,54">
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="com.programwithjava.animation/KeyEventHandler#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="com.programwithjava.animation/KeyEventHandler#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="com.programwithjava.animation/KeyEventHandler#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ABCController" location="50,50" size="156,88" id="com.programwithjava.animation/ABCController" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;),ABCController(Lcom.programwithjava.animation.ABCView;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ABCController" id="com.programwithjava.animation/ABCController#ABCController(Lcom.programwithjava.animation.ABCView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="com.programwithjava.animation/ABCController#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.programwithjava.animation/ABCView@view+com.programwithjava.animation/ABCController@" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,43" id="com.programwithjava.animation/ABCView@view+com.programwithjava.animation/ABCController@|com.programwithjava.animation/ABCController#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="view" location="0,93" id="com.programwithjava.animation/ABCView@view+com.programwithjava.animation/ABCController@|com.programwithjava.animation/ABCView#view" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - view" location="272,70" size="36,16" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="301,100" size="7,16" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

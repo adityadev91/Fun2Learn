@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="833,1636" id="puzzleproject" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D313030302046756E324C6561726E2F616469747961646576">
+  <children xsi:type="editmodel:ClassEditModel" name="ActionClass" location="239,171" size="148,70" id="puzzleproject/ActionClass">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="puzzleproject/ActionClass#actionPerformed"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AlphabetPuzzle1" location="459,50" size="172,70" id="puzzleproject/AlphabetPuzzle1">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AlphabetPuzzle1" id="puzzleproject/AlphabetPuzzle1#AlphabetPuzzle1()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NumbersPuzzle1" location="458,171" size="174,70" id="puzzleproject/NumbersPuzzle1">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,18">
+      <children xsi:type="editmodel:MethodEditModel" name="NumbersPuzzle1" id="puzzleproject/NumbersPuzzle1#NumbersPuzzle1()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PuzzlePanel" location="242,270" size="141,196" id="puzzleproject/PuzzlePanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP" id="puzzleproject/PuzzlePanel#hGAP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelcols" id="puzzleproject/PuzzlePanel#panelcols"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelrows" id="puzzleproject/PuzzlePanel#panelrows"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP" id="puzzleproject/PuzzlePanel#vGAP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="windowheight" id="puzzleproject/PuzzlePanel#windowheight"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="windowwidth" id="puzzleproject/PuzzlePanel#windowwidth"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,36">
+      <children xsi:type="editmodel:MethodEditModel" name="PuzzlePanel" id="puzzleproject/PuzzlePanel#PuzzlePanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="puzzleproject/PuzzlePanel#main"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PuzzlesMenu" location="240,50" size="145,70" id="puzzleproject/PuzzlesMenu">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PuzzlesMenu" id="puzzleproject/PuzzlesMenu#PuzzlesMenu()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Resources" location="50,50" size="126,1446" id="puzzleproject/Resources">
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,1404">
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonA" id="puzzleproject/Resources#buttonA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonB" id="puzzleproject/Resources#buttonB"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonC" id="puzzleproject/Resources#buttonC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonD" id="puzzleproject/Resources#buttonD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonE" id="puzzleproject/Resources#buttonE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonF" id="puzzleproject/Resources#buttonF"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonG" id="puzzleproject/Resources#buttonG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonH" id="puzzleproject/Resources#buttonH"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonI" id="puzzleproject/Resources#buttonI"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonJ" id="puzzleproject/Resources#buttonJ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonK" id="puzzleproject/Resources#buttonK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonL" id="puzzleproject/Resources#buttonL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonM" id="puzzleproject/Resources#buttonM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonN" id="puzzleproject/Resources#buttonN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonO" id="puzzleproject/Resources#buttonO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonP" id="puzzleproject/Resources#buttonP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonQ" id="puzzleproject/Resources#buttonQ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonR" id="puzzleproject/Resources#buttonR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonS" id="puzzleproject/Resources#buttonS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonT" id="puzzleproject/Resources#buttonT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonU" id="puzzleproject/Resources#buttonU"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonV" id="puzzleproject/Resources#buttonV"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonW" id="puzzleproject/Resources#buttonW"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonX" id="puzzleproject/Resources#buttonX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonY" id="puzzleproject/Resources#buttonY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttonZ" id="puzzleproject/Resources#buttonZ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageA" id="puzzleproject/Resources#imageA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageB" id="puzzleproject/Resources#imageB"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageC" id="puzzleproject/Resources#imageC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageD" id="puzzleproject/Resources#imageD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageE" id="puzzleproject/Resources#imageE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageF" id="puzzleproject/Resources#imageF"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageG" id="puzzleproject/Resources#imageG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageH" id="puzzleproject/Resources#imageH"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageI" id="puzzleproject/Resources#imageI"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageJ" id="puzzleproject/Resources#imageJ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageK" id="puzzleproject/Resources#imageK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageL" id="puzzleproject/Resources#imageL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageM" id="puzzleproject/Resources#imageM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageN" id="puzzleproject/Resources#imageN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageO" id="puzzleproject/Resources#imageO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageP" id="puzzleproject/Resources#imageP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageQ" id="puzzleproject/Resources#imageQ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageR" id="puzzleproject/Resources#imageR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageS" id="puzzleproject/Resources#imageS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageT" id="puzzleproject/Resources#imageT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageU" id="puzzleproject/Resources#imageU"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageV" id="puzzleproject/Resources#imageV"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageW" id="puzzleproject/Resources#imageW"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageX" id="puzzleproject/Resources#imageX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageY" id="puzzleproject/Resources#imageY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageZ" id="puzzleproject/Resources#imageZ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundA" id="puzzleproject/Resources#soundA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundB" id="puzzleproject/Resources#soundB"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundC" id="puzzleproject/Resources#soundC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundD" id="puzzleproject/Resources#soundD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundE" id="puzzleproject/Resources#soundE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundF" id="puzzleproject/Resources#soundF"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundG" id="puzzleproject/Resources#soundG"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundH" id="puzzleproject/Resources#soundH"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundI" id="puzzleproject/Resources#soundI"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundJ" id="puzzleproject/Resources#soundJ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundK" id="puzzleproject/Resources#soundK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundL" id="puzzleproject/Resources#soundL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundM" id="puzzleproject/Resources#soundM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundN" id="puzzleproject/Resources#soundN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundO" id="puzzleproject/Resources#soundO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundP" id="puzzleproject/Resources#soundP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundQ" id="puzzleproject/Resources#soundQ"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundR" id="puzzleproject/Resources#soundR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundS" id="puzzleproject/Resources#soundS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundT" id="puzzleproject/Resources#soundT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundU" id="puzzleproject/Resources#soundU"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundV" id="puzzleproject/Resources#soundV"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundW" id="puzzleproject/Resources#soundW"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundX" id="puzzleproject/Resources#soundX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundY" id="puzzleproject/Resources#soundY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soundZ" id="puzzleproject/Resources#soundZ"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
